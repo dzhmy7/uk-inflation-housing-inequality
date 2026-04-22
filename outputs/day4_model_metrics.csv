@@ -1,0 +1,5 @@
+model_name,model,split,target,train_rows,test_rows,MAE,RMSE,R2,feature_count,random_state,notes
+linear_regression,linear_regression,train,house_price_index,44,12,1.553,1.805,0.682,4,42,Interpretable baseline; train split only.
+linear_regression,linear_regression,test,house_price_index,44,12,6.377,6.783,-28.506,4,42,Frozen chronological holdout; weak negative R2 means not a strong predictive tool.
+random_forest,random_forest,train,house_price_index,44,12,0.385,0.495,0.976,4,42,Non-linear comparison model; no tuning.
+random_forest,random_forest,test,house_price_index,44,12,3.371,3.616,-7.386,4,42,"Lower holdout error than baseline, but negative R2 still means weak predictive performance."

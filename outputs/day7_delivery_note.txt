@@ -1,0 +1,15 @@
+Delivery Note — UK Inflation & Housing Costs Project
+Date: 19 April 2026
+Author: Diana Zhu (Person ID: 14282233)
+Programme: BA (Hons) Economics and Data Analytics, School of Social Sciences (SoSS)
+
+Submitted deliverables:
+- Final report (reports/day7_final_report.docx)
+- Executive summary (reports/day7_executive_summary.md)
+- Reproducible GitHub repository with README and run_all.py
+- Asset pack with key figures and tables
+- Optional Streamlit dashboard (app/streamlit_app.py)
+
+To reproduce all results: python run_all.py
+All data is refreshed from official ONS and Bank of England APIs.
+See README.md for full instructions.

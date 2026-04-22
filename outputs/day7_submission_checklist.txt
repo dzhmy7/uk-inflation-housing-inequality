@@ -1,0 +1,83 @@
+============================================================
+Day 7 Submission Checklist
+============================================================
+
+REPORTS AND DOCUMENTATION
+  ✓  reports/day7_final_report.docx exists
+  ✓  reports/day7_executive_summary.md exists
+  ✓  README.md exists
+  ✓  requirements.txt exists
+  ✓  README avoids overconfident real-time wording
+  ✓  final report avoids stale scenario wording
+  ✓  Day 6 conclusions avoid stale negative-association wording
+
+DATA PIPELINE
+  ✓  data/raw/ons_inflation_20260414.csv exists
+  ✓  data/raw/ons_house_prices_20260414.csv exists
+  ✓  data/raw/boe_bank_rate_20260414.csv exists
+  ✓  data/raw/ons_unemployment_20260414.csv exists
+  ✓  data/raw/ons_income_decile_20260414.xlsx exists
+  ✓  data/processed/day2_inflation_clean.csv exists
+  ✓  data/processed/day2_house_prices_clean.csv exists
+  ✓  data/processed/day2_bank_rate_clean.csv exists
+  ✓  data/processed/day2_unemployment_clean.csv exists
+  ✓  data/processed/day2_income_decile_clean.csv exists
+  ✓  data/processed/day2_merged_monthly_macro.csv exists
+  ✓  docs/day2_data_log.md exists
+  ✓  legacy Day 2 duplicate processed filenames are absent
+
+MODELLING AND EVALUATION
+  ✓  src/day4_train_model.py exists
+  ✓  src/day5_eval_model.py exists
+  ✓  src/day6_interest_scenario.py exists
+  ✓  src/day6_policy_analysis.py exists
+  ✓  models/day4_linear_regression.pkl exists
+  ✓  models/day4_random_forest.pkl exists
+  ✓  data/processed/model_ready_day4.csv exists
+  ✓  outputs/day4_model_metrics.csv exists
+  ✓  outputs/day4_feature_documentation.csv exists
+  ✓  outputs/day5_metrics.csv exists
+  ✓  outputs/day5_residuals.csv exists
+  ✓  outputs/day5_residual_diagnostic.png exists
+  ✓  outputs/day5_sentiment.png exists
+  ✓  outputs/day6_interest_scenario.csv exists
+  ✓  outputs/day6_distributional_summary.csv exists
+  ✓  outputs/day6_policy_matrix.csv exists
+  ✓  day4_model_metrics.csv has 4 rows
+  ✓  day5_metrics.csv has 2 holdout rows
+  ✓  distributional summary uses computed £2,013 benchmark
+  ✓  distributional burden matches final narrative (18.8% D1 vs 1.9% D10)
+
+NOTEBOOKS
+  ✓  notebooks/day2_data_collection_cleaning.ipynb exists
+  ✓  notebooks/day3_eda.ipynb exists
+  ✓  notebooks/day4_model_training.ipynb exists
+  ✓  notebooks/day5_eval_text.ipynb exists
+  ✓  notebooks/day6_policy_interpretation.ipynb exists
+
+DAY 7 ASSET PACK
+  ✓  outputs/day7_asset_pack/day3_macro_context.png exists
+  ✓  outputs/day7_asset_pack/day3_correlation_matrix.png exists
+  ✓  outputs/day7_asset_pack/day3_income_vs_housing.png exists
+  ✓  outputs/day7_asset_pack/day4_feature_documentation.csv exists
+  ✓  outputs/day7_asset_pack/day4_model_metrics.csv exists
+  ✓  outputs/day7_asset_pack/day5_metrics.csv exists
+  ✓  outputs/day7_asset_pack/day5_official_holdout_metrics.csv exists
+  ✓  outputs/day7_asset_pack/day5_holdout_actual_vs_predicted.png exists
+  ✓  outputs/day7_asset_pack/day5_residual_diagnostic.png exists
+  ✓  outputs/day7_asset_pack/day5_sentiment.png exists
+  ✓  outputs/day7_asset_pack/day6_rate_scenario_delta.png exists
+  ✓  outputs/day7_asset_pack/day6_distributional_burden.png exists
+  ✓  outputs/day7_asset_pack/day6_interest_scenario.csv exists
+  ✓  outputs/day7_asset_pack/day6_distributional_summary.csv exists
+  ✓  outputs/day7_asset_pack/day6_policy_matrix.csv exists
+  ✓  outputs/day7_asset_pack/day7_key_messages.txt exists
+
+FINAL HANDOFF
+  ✓  outputs/day7_key_messages.txt exists
+  ✓  outputs/day7_submission_checklist.txt is being generated
+  ✓  optional app/streamlit_app.py exists
+
+============================================================
+RESULT: 64 passed, 0 failed out of 64 checks
+All deliverables verified. Ready for submission.

@@ -1,0 +1,3 @@
+model,mean_baseline_predicted,mean_scenario_predicted,mean_delta,pct_change
+linear_regression,97.88,98.954,1.074,1.098
+random_forest,98.527,99.671,1.144,1.161

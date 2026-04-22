@@ -1,0 +1,5 @@
+feature_name,exact_formula,lag_used,intuition,why_no_leakage
+inflation_rate_lag1,inflation_rate.shift(1),t-1,Recent inflation pressure may affect housing-market conditions with a short delay.,"Uses only the previous month's inflation value, not the target month's value."
+unemployment_rate_lag1,unemployment_rate.shift(1),t-1,Recent labour-market conditions may affect housing demand and affordability.,Uses only the previous month's unemployment value.
+bank_rate_lag1,bank_rate.shift(1),t-1,Recent monetary conditions may affect mortgage costs and buyer behaviour.,Uses only the previous month's Bank Rate.
+bank_rate_lag3,bank_rate.shift(3),t-3,Bank Rate may affect housing with a delayed transmission period.,"Uses Bank Rate from three months earlier, so it cannot contain future information."

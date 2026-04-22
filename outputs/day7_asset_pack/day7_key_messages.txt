@@ -1,0 +1,30 @@
+Day 7 Key Messages — UK Inflation, Housing Costs, and Social Inequality
+Generated from: Day 2-6 processed outputs
+Monthly macro window: March 2021 to January 2026
+Model-ready window: June 2021 to January 2026
+===========================================================================
+
+• REGRESSIVITY OF HOUSING COSTS: The same stylised £2,013/year
+  mortgage-cost benchmark absorbs 18.8% of Decile 1 income but
+  1.9% of Decile 10 income, illustrating a roughly 10:1 burden ratio.
+
+• REAL INCOME EROSION (H1 SUPPORTED): Real income fell across deciles during the inflation shock, with
+  lower-income groups most exposed because necessities take a larger share of their budgets.
+
+• MODELLING PIPELINE SUCCESS, NOT FORECASTING SUCCESS: Linear Regression and Random Forest were trained
+  with lagged macro features and a chronological 80/20 split, but holdout R2 is negative for both models
+  (-28.51 LR, -7.39 RF), so they are not strong forecasting tools.
+
+• SCENARIO RESULT IS MODEL-IMPLIED ONLY: The +1pp Bank Rate scenario gives a small positive HPI delta
+  (+1.07 LR, +1.14 RF). This is scenario minus
+  baseline from the fitted models, not a causal estimate or policy forecast.
+
+• BBC SENTIMENT IS CONTEXT: The BBC headline sample contains 23 negative,
+  14 neutral, and 13 positive classifications. It helps describe
+  public/media concern but does not measure household welfare.
+
+• POLICY RECOMMENDATION: Targeted rent subsidy for lower-income renters is preferred over broad rent
+  controls, with explicit caveats about fiscal cost, landlord incidence, and the need for supply reform.
+
+• NEXT RESEARCH STEPS: Add rent-specific price data, regional breakdowns, household-level microdata,
+  and richer lag structures before making stronger causal or forecasting claims.

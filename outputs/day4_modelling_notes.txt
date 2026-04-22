@@ -1,0 +1,46 @@
+Day 4 Modelling Notes
+=====================
+
+Target
+------
+house_price_index
+
+Target justification
+--------------------
+House prices are central to the wider cost-of-living and inequality question because housing is a major household cost and asset-market pressure channel. Day 4 models the monthly UK house price index because it is available at the same frequency as the macro predictors. This does not answer the full distributional inequality question by itself; it creates a disciplined housing-market prediction baseline for Day 5 review.
+
+Leakage prevention
+------------------
+- Split is chronological 80/20, not random.
+- Only lagged predictors are used.
+- No future information enters the feature set.
+- No test-set information is used for preprocessing, feature selection, or transformation.
+- No scaling or learned preprocessing is fitted on the full dataset.
+
+Train/test split
+----------------
+- Train: 2021-06 to 2025-01 (44 rows)
+- Test:  2025-02 to 2026-01 (12 rows)
+
+Results interpretation
+----------------------
+- Linear test R2: -28.506
+- Random Forest test R2: -7.386
+- Negative holdout R2 means the models are not yet strong predictive tools.
+- The main Day 4 success is the reproducible modelling pipeline, not overclaiming performance.
+
+Linear coefficients
+-------------------
+- Intercept: 109.2249
+- inflation_rate_lag1: 0.4083
+- unemployment_rate_lag1: -3.9614
+- bank_rate_lag1: -0.1499
+- bank_rate_lag3: 1.2242
+
+Limitations
+-----------
+- Small monthly dataset means estimates are unstable.
+- The window mostly covers one recent economic cycle.
+- Features are macro-only and omit household-level and housing-supply detail.
+- Results are predictive, not causal.
+- Findings may be sensitive to the chosen lag structure.

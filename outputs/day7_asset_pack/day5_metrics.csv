@@ -1,0 +1,3 @@
+model,role,evaluation_set,target,holdout_rows,MAE,RMSE,R2,notes,MAE_improvement_vs_baseline,RMSE_improvement_vs_baseline,R2_change_vs_baseline
+linear_regression,baseline,closed_day4_holdout,house_price_index,12,6.377,6.783,-28.506,Frozen Day 4 holdout. Metrics measure generalisation only; they are not causal evidence.,0.0,0.0,0.0
+random_forest,comparison,closed_day4_holdout,house_price_index,12,3.371,3.616,-7.386,Frozen Day 4 holdout. Metrics measure generalisation only; they are not causal evidence.,3.006,3.167,21.12

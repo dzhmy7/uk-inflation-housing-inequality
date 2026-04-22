@@ -1,0 +1,30 @@
+[
+  {
+    "model": "linear_regression",
+    "role": "baseline",
+    "evaluation_set": "closed_day4_holdout",
+    "target": "house_price_index",
+    "holdout_rows": 12,
+    "MAE": 6.377,
+    "RMSE": 6.783,
+    "R2": -28.506,
+    "notes": "Frozen Day 4 holdout. Metrics measure generalisation only; they are not causal evidence.",
+    "MAE_improvement_vs_baseline": 0.0,
+    "RMSE_improvement_vs_baseline": 0.0,
+    "R2_change_vs_baseline": 0.0
+  },
+  {
+    "model": "random_forest",
+    "role": "comparison",
+    "evaluation_set": "closed_day4_holdout",
+    "target": "house_price_index",
+    "holdout_rows": 12,
+    "MAE": 3.371,
+    "RMSE": 3.616,
+    "R2": -7.386,
+    "notes": "Frozen Day 4 holdout. Metrics measure generalisation only; they are not causal evidence.",
+    "MAE_improvement_vs_baseline": 3.006,
+    "RMSE_improvement_vs_baseline": 3.167,
+    "R2_change_vs_baseline": 21.12
+  }
+]

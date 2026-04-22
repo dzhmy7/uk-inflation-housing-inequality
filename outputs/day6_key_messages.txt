@@ -1,0 +1,33 @@
+Day 6 Key Messages — UK Inflation, Housing Costs, and Social Inequality
+Generated: 2026-04-21
+===========================================================================
+
+• REGRESSIVITY OF HOUSING COSTS: The same stylised £2,013/year mortgage-cost benchmark
+  absorbs ~19% of Decile 1 income but only ~1.9% of Decile 10 income — a ~10:1 ratio,
+  illustrating the regressive structure of housing cost shocks (H2 supported).
+
+• REAL INCOME EROSION (H1 SUPPORTED): Inflation in 2022–2024 disproportionately eroded
+  real incomes of lower deciles, who spend a higher share on necessities. Day 3 analysis
+  confirms real income fell most for Decile 1 during the peak inflation period.
+
+• MODEL-IMPLIED RATE EFFECT (H3 PARTIAL): A +1pp Bank Rate scenario produces an
+  estimated +1.1 index-point HPI delta (linear model) and +1.1 points (random forest).
+  Negative holdout R² (-28.51 LR, -7.39 RF) limits confidence in these as forecasts;
+  treat as descriptive associations within the June 2021–January 2026 model-ready window only, not causal effects.
+
+• AMBIGUOUS NET EFFECT FOR BUYERS: A possible rate-driven house price slowdown does NOT straightforwardly
+  benefit first-time buyers — higher borrowing costs, tighter credit, and rental pass-through
+  can offset or reverse any price-level benefit. The net effect is heterogeneous across groups.
+
+• MEDIA SENTIMENT CORROBORATES CONCERN: BBC headline sentiment corpus (50 headlines, April 2026)
+  is predominantly negative/neutral on housing and inflation topics, consistent with public concern
+  about affordability. Rent controls feature prominently, reflecting political pressure on housing.
+
+• POLICY RECOMMENDATION — TARGETED RENT SUBSIDY: Preferred over rent controls because it
+  addresses the income-housing gap directly, preserves supply incentives, and can be targeted
+  to the most exposed deciles. Fiscal cost is medium but manageable; supply-side reform needed
+  in parallel to avoid landlord incidence.
+
+• DATA GAPS AS RESEARCH AGENDA: Key missing data — rent-specific price index, regional
+  breakdowns, household-level micro data, richer lag structures — represent clear next steps
+  to strengthen the evidence base for policy recommendations.
